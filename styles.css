@@ -1,0 +1,91 @@
+ html{
+    box-sizing: border-box;
+    height: 100vh;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.nav-link{
+    margin: 0 1rem;
+}
+.nav-link:hover{
+    color: #6E07F3;
+}
+#top{
+    text-align: center;
+}
+#header{
+    margin: 6rem auto 2rem auto;
+}
+.heading1{
+    font-size: 2.5rem;
+}
+.heading2{
+    font-size: 1.5rem;
+}
+.heading3{
+     font-size: 1.85rem;
+}
+.heading4{
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+.heading5{
+    font-size: 2rem;
+    margin: 4rem auto;
+}
+.heading6{
+    font-size: 1.25rem;
+}
+
+#img1{
+    height: 12rem;
+    width: 12rem;
+    padding-top: 20px;
+}
+#img2{
+    height: 25rem;
+    width: 50rem;
+}
+#middle2{
+    background-color: #6E07F3;
+    color: #fff;
+    height: 20rem ;
+    text-align: center;
+}
+#center{
+   height: inherit;
+   padding-top: 3rem;
+}
+#middle3{
+   height: 40rem ;
+   text-align: center;
+}
+
+#bottom{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #6E07F3;
+    color: #fff;
+    height: 30rem;  
+    margin: 4rem auto;
+}
+.socials{
+   margin: 2rem auto;
+}
+#icons{
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+  @media screen and (max-width: 580px)  {
+    #middle3{
+        height: 80rem;
+    }
+    .heading6{
+        font-size: 1rem;
+    }
+}
